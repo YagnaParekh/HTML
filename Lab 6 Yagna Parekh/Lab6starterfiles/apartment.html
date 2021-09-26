@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sandy and Leslie's apartment </title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="apartment_layout.css">
+<link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+	<header>
+		<h1> Sandy and Leslie's Apartment </h1>
+		<p> Click a room for a detailed view </p>
+		<figure>
+			<img src = "apartmentfloorplan.jpg" alt = "apartment"alt = "floor plan" usemap = "#apartmentPlan">
+			
+			<map name = "apartmentPlan">
+				<area shape = "rect" coords = "52,2,200,156" href = "bedroom1.html">
+				
+				<area shape = "rect" coords = "412,275,590,455" href = "bedroom2.html"> 
+				
+				<area shape = "poly" coords = "210,8,400,12,395,131,340,172,212,160" href = "livingroom.html">
+				
+				<area shape = "rect" coords = "223,250,405,293" href = "kitchen.html">
+				
+				<area shape = "circle" coords = "474,220,40" href = "diningroom.html">
+		</map>
+		</figure>
+		<nav>
+			<ul>
+				<li><a href = "">Apartment <span>|</span></a></li>
+				<li><a href = "bedroom1.html">Bedroom 1 <span>|</span></a></li>
+				<li><a href = "bedroom2.html">Bedrrom 2 <span>|</span></a></li>
+				<li><a href = "diningroom.html">Dinning Room <span>|</span></a></li>
+				<li><a href = "kitchen.html">Kitchen <span>|</span></a></li>
+				<li><a href = "livingroom.html">Living Room</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div class = "locationimg">
+			<h2> Location </h2>
+			<img src = "location.png" alt = "map">
+		</div>
+		
+		<div class = "table">
+			<h2> Apartment services: </h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Services</th>
+					<th> Day/Hours</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Gym</th>
+						<td rowspan = "2"> Monday - Friday 6am - 10pm, <br>
+							Saturday 8am - 8pm, <br>
+							Sunday 8am - 5pm </td>
+					</tr>
+					
+					<tr>
+						<th> Pool</th>
+					</tr>
+					
+					<tr>
+						<th> Laundry</th>
+						<td> 24/7 </td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<td colspan = "2"> Please do not allow people you do not know to use these 
+					facilities.
+					</td>
+				</tfoot>
+			</table>
+		</div>
+		
+		<div>
+			<div class = "welcome">
+				<h2> Welcome Message </h2>
+					<audio controls>
+						<source src = "apartment.mp3" type = "audio/mpeg">
+						Audio not supported in your browser
+					</audio>
+			</div>
+				<div> Transcript: Hello Welcome to our apartment. You'll really enjoy living here. The<br> rooms are spacious and the apartment building amenities are fantastic. We look<br> forward to hearing from you!</div>
+				
+				<div class = "survey"> <h2> Survey </h2>
+					How did you find out about this apartment? Check any that apply:
+					
+					<form method = "post" action = "https://csunix.mohawkcollege.ca/tooltime/showit.pl" >
+					<input type = "hidden" name = "formname" value = "survey">
+					<div><br>
+						<input type = "checkbox" id = "web" name = "search" value = "Web Search">
+						<label for = "search"> Web search</label>
+						
+						<input type = "checkbox" id = "friend" name = "search" value = "friend">
+						<label for = "search"> Friend</label>
+						
+						<input type = "checkbox" id = "newspaper" name = "search" value = "newspaper">
+						<label for = "search"> Newspaper</label>
+					</div><br>
+				</div>
+				
+				<div>
+					<input type = "submit" class = "submit" value = "Send">
+					<input type = "reset" class = "submit"value = "Reset Form">
+				</div>
+			</div>
+		</main>
+		<div>
+			<h2> Gallery </h2>
+			<div class = "flex">
+				<div><p>Balcony </p>
+					<img src = "thumbnails/balcony_sm.jpg" alt = "balcony">
+				</div>
+				
+				<div><p>Bathroom </p>
+					<img src = "thumbnails/bathroom_sm.jpg" alt = "bathroom">
+				</div>
+				
+				<div><p>Bedroom </p>
+					<img src = "thumbnails/bedroom_sm.jpg" alt = "bedroom">
+				</div>
+				
+				<div><p>Dinning Room </p>
+					<img src = "thumbnails/diningroom_sm.jpg" alt = "dinning rrom">
+				</div>
+				
+				<div><p>Kitchen </p>
+					<img src = "thumbnails/kitchen_sm.jpg" alt = "kitchen">
+				</div>
+				
+				<div><p>Living Room </p>
+					<img src = "thumbnails/livingroom_sm.jpg" alt = "living room">
+				</div>
+			</div>
+		</div>
+	
+	<footer>
+		<p> For more information contact : <a href = "mailto:parekhyagna009@gmail.com"> parekhyagna009@gmail.com </a> or <a href = "tel:9055551234"> (905)-555-1234</a></p>
+		
+		<p> &copy; Sandy and Leslie 2020</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

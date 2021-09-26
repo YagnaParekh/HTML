@@ -1,0 +1,31 @@
+/* Mobile Query */
+@media only screen and (max-width: 600px){
+	body{
+		grid-template-columns:1fr;
+	}
+	nav li{
+		display:block;
+	}
+	nav li span{
+		display:none;
+	}
+	.flex{
+		display:flex;
+		flex-flow:column nowrap;
+	}
+	.flex p{
+		width:40%;
+	}
+	.survey{
+		grid-row:1;
+	}
+	.welcome{
+		grid-row:2;
+	}
+	.table{
+		grid-row:3;
+	}
+	.locationimg{
+		grid-row:4;
+	}
+}

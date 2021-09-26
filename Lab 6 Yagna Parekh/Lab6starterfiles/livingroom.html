@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  Sandy and Leslie's apartment  </title>
+<link rel="stylesheet" href="apartment_layout.css">
+</head>
+	<body>
+		<header>
+			<h1> Sandy and Leslie's Apartment </h1>
+			<p> Click a room for a detailed video </p>
+			<figure>
+				<img src = "apartmentfloorplan.jpg" alt = "apartment"alt = "floor plan" usemap = "#apartmentPlan">
+				
+				<map name = "apartmentPlan">
+					<area shape = "rect" coords = "52,2,200,156" href = "bedroom1.html">
+					
+					<area shape = "rect" coords = "412,275,590,455" href = "bedroom2.html"> 
+					
+					<area shape = "poly" coords = "210,8,400,12,395,131,340,172,212,160" href = "livingroom.html">
+					
+					<area shape = "rect" coords = "223,250,405,293" href = "kitchen.html">
+					
+					<area shape = "circle" coords = "474,220,40" href = "dinningroom.html">
+					
+					<area shape = "default" href = "http://hamilton.ca" alt = "Hamilton">
+			</map>
+			</figure>
+			<nav>
+				<ul>
+					<li><a href = "#">Apartment </a></li>
+					<li><a href = "bedroom1.html">Bedroom 1</a></li>
+					<li><a href = "bedroom2.html">Bedrrom 2</a></li>
+					<li><a href = "diningroom.html">Dinning Room</a></li>
+					<li><a href = "kitchen.html">Kitchen</a></li>
+					<li><a href = "livingroom.html">Living Room</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h1> Living Room Detail </h1>
+			<img src = "livingroom_lg.jpg" alt = "livingroom image">
+			
+			<div>
+			<h2> Apartment services: </h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Services</th>
+					<th> Day/Hours</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Gym</th>
+						<td rowspan = "2"> Monday - Friday 6am - 10pm, <br>
+							Saturday 8am - 8pm, <br>
+							Sunday 8am - 5pm </td>
+					</tr>
+					
+					<tr>
+						<th> Pool</th>
+					</tr>
+					
+					<tr>
+						<th> Laundry</th>
+						<td> 24/7 </td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<td colspan = "2"> Please do not allow people you do not know to use these 
+					facilities.
+					</td>
+				</tfoot>
+			</table>
+		</div>
+		</section>
+		
+		<footer>
+			<div> For more information contact : <a href = "mailto:parekhyagna009@gmail.com"> parekhyagna009@gmail.com </a> or <a href = "tel:9055551234"> (905)-555-1234</a></div><br>
+			 <div>&copy; Sandy and Leslie 2020</div>
+		</footer>
+	</body>
+</html>

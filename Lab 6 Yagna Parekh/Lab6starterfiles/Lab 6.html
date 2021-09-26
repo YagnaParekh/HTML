@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sandy and Leslie's apartment </title>
+<link rel="stylesheet" href="practice.css">
+</head>
+<body>
+	<header>
+		<h1> Sandy and Leslie's Apartment </h1>
+		<caption> Click a room for a detailed video </caption>
+		<figure>
+			<img src = "apartmentfloorplan.jpg" alt = "apartment">
+		</figure>
+		<nav>
+			<ul>
+				<li><a href = "#">Apartment </a></li>
+				<li><a href = "#">Bedroom 1</a></li>
+				<li><a href = "#">Bedrrom 2</a></li>
+				<li><a href = "#">Dinning Room</a></li>
+				<li><a href = "#">Kitchen</a></li>
+				<li><a href = "#">Living Room</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div>
+			<h2> Location </h2>
+			<img src = "location.png" alt = "map">
+		</div>
+		
+		<div>
+			<h2> Apartment services: </h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Services<th>
+					<th> Day/Hours</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Gym</th>
+						<td> Monday - Friday 6am - 10pm, <br>
+							Saturday 8am - 8pm, <br>
+							Sunday 8am - 5pm </td>
+					</tr>
+					
+					<tr>
+						<th> Pool</th>
+					</tr>
+					
+					<tr>
+						<th> Laundry</th>
+						<td> 24/7 </td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<th> Please do not allow people you do not know to use these facilities</th>
+				</tfoot>
+			</table>
+		</div>
+		
+		<div>
+			<h2> Welcome Message </h2>
+			<audio controls>
+				<source src = "apartment.mp3" type = "audio/mpeg">
+			Audio not supported in your browser
+			</audio>
+			<p> Transcript: Hello Welcome to our apartment. You'll really enjoy living here. the rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+			
+			<h2> Survey </h2>
+			<p> How did you find out about this apartment? Check any that apply:</p>
+			
+			<form method = "post" action = "https://csunix.mohawkcollege.ca/tooltime/showit.pl" >
+			<input type = "hidden" name = "formname" value = "survey">
+			<div>
+				<input type = "checkbox" id = "web" name = "search" value = "Web Search">
+				<label for = "search"> Web search</label>
+				
+				<input type = "checkbox" id = "friend" name = "search" value = "friend">
+				<label for = "search"> Friend</label>
+				
+				<input type = "checkbox" id = "newspaper" name = "search" value = "newspaper">
+				<label for = "search"> Newspaper</label>
+			</div>
+			
+			<div>
+				<input type = "submit" class = "submit" value = "Send">
+				<input type = "reset" class = "submit"value = "Reset Form">
+			</div>
+		</div>
+		
+		<div class = "flex">
+			<h2> Gallery </h2>
+			
+			<div><p>Balcony </p>
+				<img src = "thumbnails/balcony_sm.jpg" alt = "balcony">
+			</div>
+			
+			<div><p>Bathroom </p>
+				<img src = "thumbnails/bathroom_sm.jpg" alt = "bathroom">
+			</div>
+			
+			<div><p>Bedroom </p>
+				<img src = "thumbnails/bedroom_sm.jpg" alt = "bedroom">
+			</div>
+			
+			<div><p>Dinning Room </p>
+				<img src = "thumbnails/diningroom_sm.jpg" alt = "dinning rrom">
+			</div>
+			
+			<div><p>Kitchen </p>
+				<img src = "thumbnails/kitchen_sm.jpg" alt = "kitchen">
+			</div>
+			
+			<div><p>Living Room </p>
+				<img src = "thumbnails/livingroom_sm.jpg" alt = "living room">
+			</div>
+			
+		</div>
+	</main>
+	
+	<footer>
+		<p> For more information contact : <a href = "mailto:parekhyagna009@gmail.com"> parekhyagna009@gmail.com </a> or <a href = "tel:9055551234"> (905)-555-1234</p>
+		
+		<p> &copy; Sandy and Leslie</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
